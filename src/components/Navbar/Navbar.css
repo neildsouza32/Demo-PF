@@ -1,0 +1,131 @@
+/* Container for the entire navbar */
+.navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background: var(--color-ui-1); /* Ensure the navbar has a background */
+    z-index: 1000; /* Ensure the navbar is above other content */
+    transition: background 0.3s, top 0.3s;
+}
+
+.navbar_container.visible {
+    background: var(--color-ui-2);
+    position: fixed;
+    top: 0;
+}
+
+/* Container for the logo */
+.navbar_container .logo_container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+/* Container for the navigation tabs */
+.navbar_container .tab_group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Individual tab items */
+.navbar_container .tab_item {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Styling for the active tab */
+.navbar_container .tab_item.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-1);
+    border-radius: var(--border-radius-4);
+    animation: drawer .5s;
+}
+
+/* Keyframes for the underline animation */
+@keyframes drawer {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* Container for the navigation buttons */
+.navbar_container .nav_buttons_group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Styling for the menu icon */
+.navbar_container .menu {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar_container .close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    font-size: 16px;
+    display: none;
+}
+
+.navbar_container .layout {
+    background: rgba(1, 1, 1, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 199;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Responsive styling for screens with a max width of 900px */
+@media (max-width: 900px) {
+    .navbar_container .tab_group {
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        min-height: 100vh;
+        background: var(--color-ui-1);
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        z-index: 200;
+        transition: var(--transition);
+        padding-top: 20px;
+    }
+
+    .navbar_container .tab_group.show {
+        left: 0;
+    }
+
+    .navbar_container .menu {
+        display: block;
+    }
+
+    .navbar_container .close_btn {
+        display: flex;
+    }
+}

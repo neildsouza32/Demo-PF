@@ -15,10 +15,10 @@ const About = () => {
           <h2 className="primary_title">About Me</h2>
           <h1 className="title">I am <span className="color_primary">Neil Dsouza</span></h1>
           <p className="text_muted description">
-              Experienced Full Stack Developer with a passion for creating dynamic, intuitive, and
-              responsive applications. Proficient in multiple programming languages and frameworks, 
-              as well as database design and management. Strong problem-solving and analytical skills, 
-              and a track record of delivering high-quality code on time and on budget.
+          As an aspiring engineering student, I am dedicated to translating theoretical knowledge into practical solutions 
+          for real-world challenges. With a keen focus on continuous learning, I aim to cultivate strong leadership skills 
+          alongside my analytical and problem-solving capabilities. Eager to contribute to innovative projects, I aspire to 
+          not only excel technically but also to lead and inspire collaborative efforts within engineering teams.
           </p>
         </div>
       </div>

@@ -21,22 +21,32 @@ export const menu = [
 export const projects = [
     { 
       id:1,
-      title: 'AI Powered School',
-      image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
-      category:"UI/UX",
+      title: 'Hostel Services',
+      image: 'https://fcrit-my.sharepoint.com/:i:/g/personal/5021113_it_fcrit_ac_in/EYZNJWvRwilFnUUpvSuijSwBCmatoCn40XbWVGI7QAe_Wg?e=Pw2ayg',
+      category:"Web",
       data:{
-         description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                       learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                       and intuitive navigation, our design empowers educators and students alike. Experience 
-                       innovation at its finest as we pave the way for a smarter, more efficient educational 
-                       journey.`,
-         demoLink: "https://google.com/",
+         description: `The proposed system addresses the inefficiencies of traditional college hostel
+          services by introducing an online management system. The project focuses on digitizing leave
+           applications, fee payments, holiday permissions, and administrative processes that currently 
+           involve manual paperwork and multiple signatures. The proposed online platform streamlines 
+           these procedures, eliminating the need for physical visits to authorities.`,
+         demoLink: "https://hostel-services.vercel.app/",
       },
       stack:[
         {
-          name:"XD",
-          icon: <SiAdobexd/>,
+          name:"ReactJs",
+          icon: <DiReact/>,
           iconColor:"skyblue",
+        },
+        {
+          name:"NodeJs",
+          icon: <FaNodeJs/>,
+          iconColor:"green",
+        },
+        {
+          name:"MongoDB",
+          icon: <SiMongodb/>,
+          iconColor:"limegreen",
         },
       ]
     },
@@ -217,16 +227,16 @@ export const experience = [
         data:[
             {
                 skill:"Figma",
-                level:"Experienced",
+                level:"Beginner",
             },
-            {
-                skill:"Sketch",
-                level:"Intermediate",
-            },
-            {
-                skill:"XD",
-                level:"Intermediate",
-            },
+            // {
+            //     skill:"Sketch",
+            //     level:"Intermediate",
+            // },
+            // {
+            //     skill:"XD",
+            //     level:"Intermediate",
+            // },
         ]
     },
     {
@@ -244,10 +254,10 @@ export const experience = [
                 skill:"JavaScript",
                 level:"Experienced",
             },
-            {
-                skill:"Tailwind",
-                level:"Intermediate",
-            },
+            // {
+            //     skill:"Tailwind",
+            //     level:"Intermediate",
+            // },
             {
                 skill:"Bootstrap",
                 level:"Experienced",
@@ -273,10 +283,10 @@ export const experience = [
                 skill:"MangoDB",
                 level:"Intermediate",
             },
-            {
-                skill:"PHP",
-                level:"Experienced",
-            },
+            // {
+            //     skill:"PHP",
+            //     level:"Experienced",
+            // },
             {
                 skill:"Python",
                 level:"Intermediate",
@@ -299,7 +309,7 @@ export const socialHandles = [
   {
     name:"Github",
     icon:<AiFillGithub/>,
-    link:"",
+    link:"https://github.com/neildsouza32",
   },
   {
     name:"LinkedIn",

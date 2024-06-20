@@ -5,13 +5,13 @@ import Odometer from 'react-odometerjs';
 const Facts = ({ experience, projects, clients }) => {
   return (
     <div className='fact_container'>
-      <div className='fact-item'>
+      {/* <div className='fact-item'>
         <div className='count_container'>
           <Odometer value={experience} />
           <span className="indicator">+</span>
         </div>
         <p className="name">Years of Experience</p>
-      </div>
+      </div> */}
 
       <div className='fact-item'>
         <div className='count_container'>
@@ -21,13 +21,13 @@ const Facts = ({ experience, projects, clients }) => {
         <p className="name">Completed Projects</p>
       </div>
 
-      <div className='fact-item'>
+      {/* <div className='fact-item'>
         <div className='count_container'>
           <Odometer value={clients} />
           <span className="indicator">+</span>
         </div>
         <p className="name">Satisfied Clients</p>
-      </div>
+      </div> */}
     </div>
   );
 }

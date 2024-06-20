@@ -24,7 +24,7 @@ const Header = () => {
         onComplete: () => {
           // Start the Odometer animation when the GSAP animation is complete
           setExperience(2);
-          setProjects(150);
+          setProjects(5);
           setClients(20);
         }
       });
@@ -67,13 +67,12 @@ const Header = () => {
             <div className="header_info_middle">
               <h1 className="primary_title header_title">I'M A WEB DEVELOPER</h1>
               <p className="text_muted header_description">
-                I dissect intricate user experience challenges to engineer 
-                integrity-focused solutions that resonate with billions of users.
+              
               </p>
             </div>
             <Facts experience={experience} projects={projects} clients={clients} />
             <div className="header_info_bottom">
-              <button className="btn">Download CV</button>
+              <a href="https://drive.google.com/file/d/1e5xnBSdwx_TBd0ZLyyhoYCdtRaxsy5pd" className="btn" >Download CV</a>
               <a href="mailto:neiladsouza32@gmail.com" className="btn">Email Me</a>
             </div>
           </div>

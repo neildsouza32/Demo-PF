@@ -6,6 +6,8 @@ import { AiFillGithub,AiFillLinkedin,AiFillYoutube } from "react-icons/ai";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
+import {hostel} from "./images"
+import {FaceC} from "./images"
 
 export const menu = [
     {name:"About"},
@@ -22,7 +24,7 @@ export const projects = [
     { 
       id:1,
       title: 'Hostel Services',
-      image: 'https://fcrit-my.sharepoint.com/:i:/g/personal/5021113_it_fcrit_ac_in/EYZNJWvRwilFnUUpvSuijSwBCmatoCn40XbWVGI7QAe_Wg?e=Pw2ayg',
+      image: hostel,
       category:"Web",
       data:{
          description: `The proposed system addresses the inefficiencies of traditional college hostel
@@ -50,41 +52,34 @@ export const projects = [
         },
       ]
     },
-    // {
-    //   id:2,
-    //   title: 'E-Commerce Application',
-    //   image: 'https://cdn.dribbble.com/userupload/8002230/file/original-c8eec16edea4d5c836b2bfabe7fbaa5a.jpg',
-    //   category:"Web",
-    //   data:{
-    //     description:`Enhance your online shopping experience with our E-Commerce Application 
-    //     UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-    //     interface offers easy navigation, personalized recommendations, and secure 
-    //     transactions. Elevate your digital storefront and captivate customers with a visually 
-    //     stunning design tailored to your brand`,
-    //     demoLink: "https://google.com/",
-    //   },
-    //   stack:[
-    //     {
-    //       name:"ReactJs",
-    //       icon: <DiReact/>,
-    //       iconColor:"skyblue",
-    //     },
-    //     {
-    //       name:"NodeJs",
-    //       icon: <FaNodeJs/>,
-    //       iconColor:"green",
-    //     },
-    //     {
-    //       name:"ExpressJs",
-    //       icon: <SiExpress/>,
-    //     },
-    //     {
-    //       name:"MongoDB",
-    //       icon: <SiMongodb/>,
-    //       iconColor:"limegreen",
-    //     },
-    //   ]
-    // },
+    {
+      id:2,
+      title: 'Face Counting',
+      image: FaceC,
+      category:"Apps",
+      data:{
+        description:`This project proposes a system in which we can count the number of human faces in a
+         particular place. Undoubtedly this can be done manually but there are still many chances of human
+         errors. A simple practical use of this can be seen for the attendance purpose wherein the teacher
+          has to take the count manually which is time consuming and may not be accurate. This system is more
+           efficient, accurate and less time consuming.
+`,
+        demoLink: "https://google.com/",
+      },
+      stack:[
+        
+        {
+          name:"NodeJs",
+          icon: <FaNodeJs/>,
+          iconColor:"green",
+        },
+        {
+          name:"ExpressJs",
+          icon: <SiExpress/>,
+        },
+        
+      ]
+    },
     // {
     //   id:3,
     //   title: 'Robotic Engineering Web Application',
@@ -319,6 +314,6 @@ export const socialHandles = [
   {
     name:"Youtube",
     icon:<AiFillYoutube/>,
-    link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link:"",
   },
 ];

@@ -67,7 +67,7 @@ const Header = () => {
             <div className="header_info_middle">
               <h1 className="primary_title header_title">I'M A WEB DEVELOPER</h1>
               <p className="text_muted header_description">
-              
+                I am an IT student pursuing B.E. in Information Technology from FCRIT, Vashi.
               </p>
             </div>
             <Facts experience={experience} projects={projects} clients={clients} />

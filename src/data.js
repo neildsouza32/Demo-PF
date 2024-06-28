@@ -309,7 +309,7 @@ export const socialHandles = [
   {
     name:"LinkedIn",
     icon:<AiFillLinkedin/>,
-    link:"",
+    link:"https://www.linkedin.com/in/neildsouza32/",
   },
   {
     name:"Youtube",

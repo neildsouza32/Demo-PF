@@ -79,6 +79,7 @@ const Projects = () => {
                 image={project.image}
                 data={project.data}
                 stack={project.stack}
+                demoLink={project.data.demoLink} // Ensure demoLink is passed here
                 key={index}
               />
             ))

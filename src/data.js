@@ -1,5 +1,7 @@
 import {DiReact} from "react-icons/di";
 import {FaNodeJs} from "react-icons/fa";
+import { FaPython } from 'react-icons/fa';
+
 import {SiExpress,SiMongodb} from "react-icons/si";
 import { SiFiverr } from "react-icons/si";
 import { AiFillGithub,AiFillLinkedin,AiFillYoutube } from "react-icons/ai";
@@ -77,6 +79,11 @@ export const projects = [
           name:"ExpressJs",
           icon: <SiExpress/>,
         },
+        {
+          name:"Python",
+          icon: <FaPython/>,
+        },
+        
         
       ]
     },

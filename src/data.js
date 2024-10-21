@@ -32,8 +32,7 @@ export const projects = [
          description: `The proposed system addresses the inefficiencies of traditional college hostel
           services by introducing an online management system. The project focuses on digitizing leave
            applications, fee payments, holiday permissions, and administrative processes that currently 
-           involve manual paperwork and multiple signatures. The proposed online platform streamlines 
-           these procedures, eliminating the need for physical visits to authorities.`,
+           involve manual paperwork and multiple signatures. `,
          demoLink: "https://hostel-services.vercel.app/",
       },
       stack:[
@@ -63,22 +62,14 @@ export const projects = [
         description:`This project proposes a system in which we can count the number of human faces in a
          particular place. Undoubtedly this can be done manually but there are still many chances of human
          errors. A simple practical use of this can be seen for the attendance purpose wherein the teacher
-          has to take the count manually which is time consuming and may not be accurate. This system is more
-           efficient, accurate and less time consuming.
+          has to take the count manually which is time consuming and may not be accurate. 
+           
 `,
-        demoLink: "https://google.com/",
+        demoLink: "https://github.com/neildsouza32/Human-Face-Counter",
       },
       stack:[
         
-        {
-          name:"NodeJs",
-          icon: <FaNodeJs/>,
-          iconColor:"green",
-        },
-        {
-          name:"ExpressJs",
-          icon: <SiExpress/>,
-        },
+      
         {
           name:"Python",
           icon: <FaPython/>,
